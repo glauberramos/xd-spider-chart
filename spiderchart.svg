@@ -1,52 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="658px"
-	 height="542px" viewBox="0 0 658 542" enable-background="new 0 0 658 542" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="632.333px" height="468.303px" viewBox="0 0 632.333 468.303" enable-background="new 0 0 632.333 468.303"
+	 xml:space="preserve">
 <g id="spiderweb">
-	<polygon id="_x31__anel" fill="none" stroke="#110F0F" stroke-miterlimit="10" points="285,365.5 366,365.5 391.667,288 
-		391.75,287.5 325.333,240 259.667,287.667 284.667,365 	"/>
-	<polygon id="_x32__anel" fill="none" stroke="#110F0F" stroke-miterlimit="10" points="261.375,399.562 387.878,399.5 
-		428.121,277.847 428.25,277.062 324.122,202.5 221.167,277.323 261.188,399.438 	"/>
-	<polygon id="_x33__anel" fill="none" stroke="#110F0F" stroke-miterlimit="10" points="238,431.5 410.256,431.5 465.074,266.37 
-		465.25,265.181 323.408,164.062 183.167,265.442 237.812,431.312 	"/>
-	<polygon id="_x34__anel" fill="none" stroke="#110F0F" stroke-miterlimit="10" points="216,463.5 433.231,463.5 502.527,254.53 
-		502.75,253.026 323.446,125.062 146.167,253.356 215.625,463.312 	"/>
-	<polygon id="_x35__anel" fill="none" stroke="#110F0F" stroke-miterlimit="10" points="192,494.5 455.272,494.5 538.98,241.074 
-		539.25,239.249 322.652,84.062 108.5,239.65 191.844,493.875 	"/>
+	<polygon id="_x31__anel" fill="none" stroke="#110F0F" stroke-miterlimit="10" points="273,313.925 354,313.925 379.667,236.425 
+		379.75,235.925 313.333,188.425 247.667,236.092 272.667,313.425 	"/>
+	<polygon id="_x32__anel" fill="none" stroke="#110F0F" stroke-miterlimit="10" points="249.375,347.987 375.878,347.925 
+		416.121,226.271 416.25,225.486 312.122,150.925 209.167,225.748 249.188,347.862 	"/>
+	<polygon id="_x33__anel" fill="none" stroke="#110F0F" stroke-miterlimit="10" points="226,379.925 398.256,379.925 
+		453.074,214.794 453.25,213.605 311.408,112.487 171.167,213.867 225.812,379.737 	"/>
+	<polygon id="_x34__anel" fill="none" stroke="#110F0F" stroke-miterlimit="10" points="204,411.925 421.231,411.925 
+		490.527,202.955 490.75,201.451 311.446,73.487 134.167,201.781 203.625,411.737 	"/>
+	<polygon id="_x35__anel" fill="none" stroke="#110F0F" stroke-miterlimit="10" points="180,442.925 443.272,442.925 
+		526.98,189.499 527.25,187.674 310.652,32.487 96.5,188.075 179.844,442.3 	"/>
 </g>
 <g id="circles">
-	<circle id="a1" fill="none" cx="325" cy="240.334" r="12.667"/>
-	<circle id="a2" fill="none" cx="324" cy="202.334" r="12.667"/>
-	<circle id="a3" fill="none" cx="323" cy="164.334" r="12.667"/>
-	<circle id="a4" fill="none" cx="324" cy="125.334" r="12.667"/>
-	<circle id="a5" fill="none" cx="323" cy="84.334" r="12.667"/>
-	<circle id="b1" fill="none" cx="391" cy="288.334" r="12.667"/>
-	<circle id="b2" fill="none" cx="428" cy="277.334" r="12.667"/>
-	<circle id="b3" fill="none" cx="465" cy="265.334" r="12.667"/>
-	<circle id="b4" fill="none" cx="503" cy="253.334" r="12.667"/>
-	<circle id="b5" fill="none" cx="539" cy="239.334" r="12.667"/>
-	<circle id="c1" fill="none" cx="366" cy="365.334" r="12.667"/>
-	<circle id="c2" fill="none" cx="388" cy="399.334" r="12.667"/>
-	<circle id="c3" fill="none" cx="411" cy="431.334" r="12.667"/>
-	<circle id="c4" fill="none" cx="434" cy="463.334" r="12.667"/>
-	<circle id="c5" fill="none" cx="456" cy="494.334" r="12.667"/>
-	<circle id="d1" fill="none" cx="285" cy="365.334" r="12.667"/>
-	<circle id="d2" fill="none" cx="262" cy="398.334" r="12.667"/>
-	<circle id="d3" fill="none" cx="238" cy="431.334" r="12.667"/>
-	<circle id="d4" fill="none" cx="216" cy="462.334" r="12.667"/>
-	<circle id="d5" fill="none" cx="192" cy="494.334" r="12.667"/>
-	<circle id="e1" fill="none" cx="259" cy="287.334" r="12.667"/>
-	<circle id="e2" fill="none" cx="221" cy="277.334" r="12.667"/>
-	<circle id="e3" fill="none" cx="183" cy="265.334" r="12.667"/>
-	<circle id="e4" fill="none" cx="146" cy="253.334" r="12.667"/>
-	<circle id="e5" fill="none" cx="108" cy="239.334" r="12.667"/>
+	<circle id="b1" fill="none" cx="379" cy="236.759" r="12.667"/>
+	<circle id="b2" fill="none" cx="416" cy="225.759" r="12.667"/>
+	<circle id="b3" fill="none" cx="453" cy="213.759" r="12.667"/>
+	<circle id="b4" fill="none" cx="491" cy="201.759" r="12.667"/>
+	<circle id="b5" fill="none" cx="527" cy="187.759" r="12.667"/>
+	<circle id="a1" fill="none" cx="313" cy="188.759" r="12.667"/>
+	<circle id="a2" fill="none" cx="312" cy="150.759" r="12.667"/>
+	<circle id="a3" fill="none" cx="311" cy="112.759" r="12.667"/>
+	<circle id="a4" fill="none" cx="312" cy="73.759" r="12.667"/>
+	<circle id="a5" fill="none" cx="311" cy="32.759" r="12.667"/>
+	<circle id="c1" fill="none" cx="354" cy="313.759" r="12.667"/>
+	<circle id="c2" fill="none" cx="376" cy="347.759" r="12.667"/>
+	<circle id="c3" fill="none" cx="399" cy="379.759" r="12.667"/>
+	<circle id="c4" fill="none" cx="422" cy="411.759" r="12.667"/>
+	<circle id="c5" fill="none" cx="444" cy="442.759" r="12.667"/>
+	<circle id="d1" fill="none" cx="273" cy="313.759" r="12.667"/>
+	<circle id="d2" fill="none" cx="250" cy="346.759" r="12.667"/>
+	<circle id="d3" fill="none" cx="226" cy="379.759" r="12.667"/>
+	<circle id="d4" fill="none" cx="204" cy="410.759" r="12.667"/>
+	<circle id="d5" fill="none" cx="180" cy="442.759" r="12.667"/>
+	<circle id="e1" fill="none" cx="247" cy="235.759" r="12.667"/>
+	<circle id="e2" fill="none" cx="209" cy="225.759" r="12.667"/>
+	<circle id="e3" fill="none" cx="171" cy="213.759" r="12.667"/>
+	<circle id="e4" fill="none" cx="134" cy="201.759" r="12.667"/>
+	<circle id="e5" fill="none" cx="96" cy="187.759" r="12.667"/>
 </g>
-<g id="text">	
-	<text id="atext" transform="matrix(1 0 0 1 293 44)"><tspan x="0" y="0" font-family="'OpenSans'" font-size="18">Solution </tspan><tspan x="0" y="21.6" font-family="'OpenSans'" font-size="18">Architect</tspan></text>
-	<text id="btext" transform="matrix(1 0 0 1 555 242)" font-family="'OpenSans'" font-size="18">Researcher</text>
-	<text id="ctext" transform="matrix(1 0 0 1 475 503)"><tspan x="0" y="0" font-family="'OpenSans'" font-size="18">Visual</tspan><tspan x="0" y="21.6" font-family="'OpenSans'" font-size="18">Designer</tspan></text>
-	<text id="dtext" transform="matrix(1 0 0 1 152 501)"><tspan x="0" y="0" font-family="'OpenSans'" font-size="18">UI</tspan><tspan x="0" y="21.6" font-family="'OpenSans'" font-size="18">Developer</tspan></text>
-	<text id="etext" transform="matrix(1 0 0 1 18 229)"><tspan x="0" y="0" font-family="'OpenSans'" font-size="18">Interaction</tspan><tspan x="0" y="21.6" font-family="'OpenSans'" font-size="18">Designer</tspan></text>
+<g id="text">
+	<text id="etext" transform="matrix(1 0 0 1 0 193.4248)" font-family="'OpenSans'" font-size="18">Interaction</text>
+	<text id="dtext" transform="matrix(1 0 0 1 72 463.4248)" font-family="'OpenSans'" font-size="18">UI Development</text>
+	<text id="ctext" transform="matrix(1 0 0 1 447 460.4248)" font-family="'OpenSans'" font-size="18">Visual Design</text>
+	<text id="btext" transform="matrix(1 0 0 1 538 193.4248)" font-family="'OpenSans'" font-size="18">Research</text>
+	<text id="atext" transform="matrix(1 0 0 1 238 15.4248)" font-family="'OpenSans'" font-size="18">Solution Architecture</text>
 </g>
 </svg>
