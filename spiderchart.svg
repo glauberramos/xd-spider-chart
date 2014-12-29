@@ -44,10 +44,12 @@
 	<circle id="e5" fill="none" cx="96" cy="187.759" r="12.667"/>
 </g>
 <g id="text">
-	<text id="atext" transform="matrix(1 0 0 1 293 44)"><tspan x="0" y="0" font-family="'OpenSans'" font-size="18">Goal</tspan><tspan x="0" y="21.6" font-family="'OpenSans'" font-size="18">Keeper</tspan></text>
-	<text id="btext" transform="matrix(1 0 0 1 555 242)" font-family="'OpenSans'" font-size="18">Defender</text>
-	<text id="ctext" transform="matrix(1 0 0 1 475 503)"><tspan x="0" y="0" font-family="'OpenSans'" font-size="18">Right</tspan><tspan x="0" y="21.6" font-family="'OpenSans'" font-size="18">Winger</tspan></text>
-	<text id="dtext" transform="matrix(1 0 0 1 152 501)"><tspan x="0" y="0" font-family="'OpenSans'" font-size="18">Mid</tspan><tspan x="0" y="21.6" font-family="'OpenSans'" font-size="18">Fielder</tspan></text>
-	<text id="etext" transform="matrix(1 0 0 1 18 229)"><tspan x="0" y="0" font-family="'OpenSans'" font-size="18">Centre</tspan><tspan x="0" y="21.6" font-family="'OpenSans'" font-size="18">Forward</tspan></text>
+	<text id="atext" transform="matrix(1 0 0 1 293 44)">
+		<tspan x="0" y="0" font-family="'OpenSans'" font-size="18">Interaction</tspan>
+	</text>
+	<text id="btext" transform="matrix(1 0 0 1 555 242)" font-family="'OpenSans'" font-size="18">UI Development</text>
+	<text id="ctext" transform="matrix(1 0 0 1 475 503)"><tspan x="0" y="0" font-family="'OpenSans'" font-size="18">Right</tspan><tspan x="0" y="21.6" font-family="'OpenSans'" font-size="18">Visual Design</tspan></text>
+	<text id="dtext" transform="matrix(1 0 0 1 152 501)"><tspan x="0" y="0" font-family="'OpenSans'" font-size="18">Mid</tspan><tspan x="0" y="21.6" font-family="'OpenSans'" font-size="18">Research</tspan></text>
+	<text id="etext" transform="matrix(1 0 0 1 18 229)"><tspan x="0" y="0" font-family="'OpenSans'" font-size="18">Centre</tspan><tspan x="0" y="21.6" font-family="'OpenSans'" font-size="18">Solution Architecture</tspan></text>
 </g>
 </svg>
