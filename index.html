@@ -2,12 +2,68 @@
 <html>
 <head>
 	<title>Experience Design Spider Chart</title>
+	<link rel="stylesheet" type="text/css" href="modal.css">
+	<link rel="stylesheet" type="text/css" href="buttons.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<h1>XD Spider Charts <a class="button button-rounded button-flat-primary" href="#modal">+ Add spider chart</a></h1>
 	<section id="spiders"></section>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+	<section class="modal--show" id="modal" tabindex="-1"
+        role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+
+    <div class="modal-inner">
+        <header id="modal-label"><h2>Add spider chart</h2></header>
+        <div class="modal-content">
+        	
+        	<div>
+        		<label for="name-input">Name</label>
+        		<input autofocus id="name-input" type="text" />
+        	</div>
+			
+			<label>Legend</label>
+			<ul>
+        		<li><number>1</number>Who me?</li>
+        		<li><number>2</number>Bit Scared</li>
+        		<li><number>3</number>Can do it</li>
+        		<li><number>4</number>Stretching for leadership</li>
+        		<li><number>5</number>Community Luminary/Lead</li>
+        	</ul>
+
+			<div class="inline">
+	        	<label for="product-input">Product Design</label>
+	        	<input id="product-input" type="number" />
+        	</div>
+
+			<div class="inline">
+	        	<label for="research-input">Research</label>
+	        	<input id="research-input" type="number" />
+        	</div>
+
+			<div class="inline">
+	        	<label for="visual-input">Visual Design</label>
+	        	<input id="visual-input" type="number" />
+			</div>
+
+			<div class="inline">
+	        	<label for="front-input">Front End</label>
+	        	<input id="front-input" type="number" />
+        	</div>
+
+			<div class="inline">
+        		<label for="interaction-input">Interaction Design</label>
+        		<input id="interaction-input" type="number" />
+        	</div>
+        </div>
+        <footer><button class="button button-rounded button-block button-flat-action" id="add-spider">Save</button></footer>
+    </div>
+
+    <a href="#!" class="modal-close" title="Close this modal" data-close="Close"
+        data-dismiss="modal">?</a>
+	</section>
 	
+	<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="parse-1.2.19.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
 </body>

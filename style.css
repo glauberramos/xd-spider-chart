@@ -1,0 +1,102 @@
+body {
+	font-family: "OpenSans";
+	color: #0074D9;
+	font-size: 16px;
+	padding: 1em;
+}
+
+svg {
+	width: 360px;
+	height: 300px;
+	display: block;
+}
+
+a {
+	cursor: pointer;
+	color: #FF4136;
+	margin-left: 1em;
+	text-decoration: underline;
+}
+
+.button-flat-primary {
+	margin-bottom: 1em;
+	margin-left: 1em;
+	position: relative;
+	top: 5px;
+}
+
+.inline {
+	display: inline-block;
+	width: 30%;
+}
+
+article {
+	display: inline-block;
+	margin-right: 1em;
+	background: #F5FBFD;
+	border: 1px solid #7FDBFF;
+	padding: 1em;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+li {
+	display: inline-block;
+	width: 17%;
+	text-align: center;
+	background: #eee;
+	height: 80px;
+	vertical-align: top;
+	padding: 4px;
+	font-size: 0.8em;
+	margin-right: 0.3em;
+}
+
+ul {
+	list-style: none;
+	margin-right: 0;
+	padding: 0;
+}
+
+number {
+	display: block;
+	font-weight: bold;
+	margin-top: 15px;
+	font-size: 1.4em;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	color: #0074D9;
+}
+
+input {
+	height: 30px;
+	margin-bottom: 0.5em;
+	margin-top: 0.2em;
+	font-size: 1.3em;
+	padding-left: 0.3em;
+}
+
+input[type="number"] {
+	width: 130px;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+h1, h2, h3 {
+	color: #0074D9;
+}
+
+h3, button {
+	display: inline-block;
+	margin-right: 1em;
+	margin: 0.3em;
+}
+
+.button-flat-action {
+	margin-top: 1em;
+}

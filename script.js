@@ -1,7 +1,8 @@
 Parse.initialize("SvIXm6lpaiR9e9hnajEicOGVr9tQAfYDMxi5Wzuz", "jZMWX0q6byyuaPl1TK9hftFwoVonZznBwCjINbuN");
 
 var Spider = Parse.Object.extend("Spider");
-
+var count = 1; 
+var blue = '#3498db';
 var query = new Parse.Query(Spider);
 
 query.find({
@@ -20,15 +21,14 @@ query.find({
   }
 });
 
-$(function () {
-	var blue = '#3498db';
-	var count = 1;
-
+loadData = function() {
 	query.find({
 		success: function(results) {
+			$('#spiders').html('');
+
 			$(results).each(function() {
 				var element = $('<span id="spider-' + count + '">').html('<article>' +
-					'<h3 id="name"></h3>' +
+					'<h3 id="name"></h3><a class="delete" data-name="' + this.get('Name') + '">delete</a>' +
 					'<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="658px"' +
 						 'height="542px" viewBox="0 0 658 542" enable-background="new 0 0 658 542" xml:space="preserve">' +
 					'<g id="spiderweb">' +
@@ -71,11 +71,11 @@ $(function () {
 						'<circle id="e5" fill="none" cx="108" cy="239.334" r="12.667"/>' +
 					'</g>' +
 					'<g id="text">' +
-						'<text id="atext" transform="matrix(1 0 0 1 293 44)"><tspan x="0" y="0" font-family="OpenSans" font-size="18">Solution </tspan><tspan x="0" y="21.6" font-family="OpenSans" font-size="18">Architect</tspan></text>' +
-						'<text id="btext" transform="matrix(1 0 0 1 555 242)" font-family="OpenSans" font-size="18">Researcher</text>' +
-						'<text id="ctext" transform="matrix(1 0 0 1 475 503)"><tspan x="0" y="0" font-family="OpenSans" font-size="18">Visual</tspan><tspan x="0" y="21.6" font-family="OpenSans" font-size="18">Designer</tspan></text>' +
-						'<text id="dtext" transform="matrix(1 0 0 1 152 501)"><tspan x="0" y="0" font-family="OpenSans" font-size="18">UI</tspan><tspan x="0" y="21.6" font-family="OpenSans" font-size="18">Developer</tspan></text>' +
-						'<text id="etext" transform="matrix(1 0 0 1 18 229)"><tspan x="0" y="0" font-family="OpenSans" font-size="18">Interaction</tspan><tspan x="0" y="21.6" font-family="OpenSans" font-size="18">Designer</tspan></text>' +
+						'<text id="atext" transform="matrix(1 0 0 1 293 44)"><tspan x="0" y="0" font-family="OpenSans" font-size="18">Product </tspan><tspan x="0" y="21.6" font-family="OpenSans" font-size="18">Design</tspan></text>' +
+						'<text id="btext" transform="matrix(1 0 0 1 555 242)" font-family="OpenSans" font-size="18">Research</text>' +
+						'<text id="ctext" transform="matrix(1 0 0 1 475 503)"><tspan x="0" y="0" font-family="OpenSans" font-size="18">Visual</tspan><tspan x="0" y="21.6" font-family="OpenSans" font-size="18">Design</tspan></text>' +
+						'<text id="dtext" transform="matrix(1 0 0 1 152 501)"><tspan x="0" y="21.6" font-family="OpenSans" font-size="18">Front</tspan><tspan x="0" y="41.6" font-family="OpenSans" font-size="18">End</tspan></text>' +
+						'<text id="etext" transform="matrix(1 0 0 1 18 229)"><tspan x="-20" y="0" font-family="OpenSans" font-size="18">Interaction</tspan><tspan x="-20" y="21.6" font-family="OpenSans" font-size="18">Design</tspan></text>' +
 					'</g>' +
 					'</svg>' +
 				'</article>');
@@ -96,4 +96,61 @@ $(function () {
 			console.log("Error: " + error.code + " " + error.message);
 		}
 	});
+};
+
+$(document).on('click', '.delete', function() {
+	var name = $(this).attr('data-name');
+
+	console.log(name);
+
+	var queryDelete = new Parse.Query(Spider);
+  	queryDelete.equalTo("Name", name);
+
+	var result = confirm("Are you sure you want to delete spider chart for " + name + ' ?');
+	if (result === true) {
+	    queryDelete.find({
+			success: function(spider) {
+		    	spider[0].destroy({
+		    		success: function() {
+		    			loadData();
+		    		}
+		    	});
+			}
+		});
+	}
+});
+
+$(function () {
+	$('#add-spider').click(function() {
+		var name = $('#name-input').val();
+		var front = $('#front-input').val();
+		var product = $('#product-input').val();
+		var visual = $('#visual-input').val();
+		var interaction = $('#interaction-input').val();
+		var research = $('#research-input').val();
+
+		var spider = new Spider();
+		spider.set('Name', name);
+		spider.set('front', parseInt(front));
+		spider.set('product', parseInt(product));
+		spider.set('visual', parseInt(visual));
+		spider.set('interaction', parseInt(interaction));
+		spider.set('research', parseInt(research));
+		spider.save({
+    		success: function() {
+    			loadData();
+
+    			window.location.hash = '';
+
+    			$('#name-input').val('');
+				$('#front-input').val('');
+				$('#product-input').val('');
+				$('#visual-input').val('');
+				$('#interaction-input').val('');
+				$('#research-input').val('');
+    		}
+    	})
+	});
+
+	loadData();
 });
