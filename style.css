@@ -11,6 +11,11 @@ svg {
 	display: block;
 }
 
+text, tspan {
+	font-weight: bold;
+	font-size: 20px;
+}
+
 a {
 	cursor: pointer;
 	color: #FF4136;
