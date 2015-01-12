@@ -16,6 +16,12 @@ text, tspan {
 	font-size: 20px;
 }
 
+.summary div {
+	font-size: 2em;
+	color: #555;
+	font-weight: bold;
+}
+
 a {
 	cursor: pointer;
 	color: #FF4136;

@@ -26,6 +26,12 @@ loadData = function() {
 		success: function(results) {
 			$('#spiders').html('');
 
+			var frontSum = 0;
+			var researchSum = 0;
+			var interactionSum = 0;
+			var productSum = 0;
+			var visualSum = 0;
+
 			$(results).each(function() {
 				var element = $('<span id="spider-' + count + '">').html('<article>' +
 					'<h3 id="name"></h3><a class="delete" data-name="' + this.get('Name') + '">delete</a>' +
@@ -89,8 +95,20 @@ loadData = function() {
 				$('#spider-' + count + ' #d' + this.get('front')).css('fill', blue);
 				$('#spider-' + count + ' #e' + this.get('interaction')).css('fill', blue);
 
+				frontSum += this.get('front');
+				visualSum += this.get('visual');
+				interactionSum += this.get('interaction');
+				researchSum += this.get('research');
+				productSum += this.get('product');
+
 				count++;
 			});
+
+			$('.front').html(frontSum/results.length);
+			$('.visual').html(visualSum/results.length);
+			$('.product').html(productSum/results.length);
+			$('.interaction').html(interactionSum/results.length);
+			$('.research').html(researchSum/results.length);
 		},
 		error: function(error) {
 			console.log("Error: " + error.code + " " + error.message);
